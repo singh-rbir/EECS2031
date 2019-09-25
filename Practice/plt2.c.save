@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int isMirrored(int x);
+
+int main(){
+	isMirrored(12);
+}
+
+int isMirrored(int x){
+	int rev = 0;
+	while(x > 0){
+		rev *= 10;
+		rev += x % 10;
+	return 1;
+}
